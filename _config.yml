@@ -1,5 +1,57 @@
-title: Defendable Design
-description: Adventures in infosec automation, security as code and security by design.
-show_downloads: false
+# Setup
+title:            Defendable Design
+description:      'Adventures in infosec automation, security as code and security by design.'
+url:              https://defendable.design
+baseurl:          # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+
+author:
+  name:           'Glenn Bolton'
+  url:            https://twitter.com/DefendableSec
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+sass:
+    sass_dir: _sass
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sass
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
+  - .gitignore
+
+permalink:        /:year/:month/:day/:title.html
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      excerpt_separator:  <!--more-->
+      layout: post
+
+# Custom vars
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+github:
+  repo:           https://github.com/defendabledesign
+
+disqus:
+  shortname:      defendable
+
 google_analytics: UA-109226478-1
-theme: jekyll-theme-minimal

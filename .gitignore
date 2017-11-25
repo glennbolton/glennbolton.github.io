@@ -1,0 +1,10 @@
+# ignore lock files
+*.lock
+
+# ignore local Jekyll files
+/_site/
+.jekyll-metadata
+/.sass-cache/
+
+# ignore mac files
+.DS_Store

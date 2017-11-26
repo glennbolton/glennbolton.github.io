@@ -26,4 +26,7 @@
       {% endif %}
     {% endfor %}
   </span>
+  {% if include.post.author %}
+  <span>&bull; By {{ include.post.author }}</span>
+  {% endif %}
 </div>

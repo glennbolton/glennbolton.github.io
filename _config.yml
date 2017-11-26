@@ -1,6 +1,6 @@
 # Setup
 title:            Defendable Design
-description:      'Adventures in infosec automation, security as code and security by design.'
+description:      'Adventures in infosec automation, security as code and security analytics.'
 url:              https://defendable.design
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.

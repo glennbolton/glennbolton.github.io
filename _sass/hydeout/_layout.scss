@@ -87,6 +87,16 @@ body {
   }
 }
 
+#sidebar .logo {
+  width: 8rem;
+  height: auto;
+  margin: 0 0 1rem 0;
+  padding: 0.5rem;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  max-width: 150px;
+}
+
 // Make header elements blend into sidebar / background
 .container > header {
   background: transparent;
@@ -130,6 +140,10 @@ body {
       display: flex;
     }
   }
+  
+  .logo {
+    margin: 0 auto 0 auto;
+  }
 
   // Slightly more bottom padding to compensate for heading not match 100% of
   // line-height on top
@@ -159,6 +173,10 @@ body {
 
     > *:last-child {
       margin-bottom: 0;
+    }
+
+    .logo {
+      margin: 0 0 1rem 0;
     }
   }
 

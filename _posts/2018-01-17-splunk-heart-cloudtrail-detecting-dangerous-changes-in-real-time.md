@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Splunk ♥ CloudTrail: Detecting Dangerous Changes in Real Time"
+title: "Splunk ♥ CloudTrail: Detecting Dangerous Security Group Changes in Real Time"
+description: "Use AWS CloudTrail with Splunk to detect dangerous EC2 security group changes in real time."
 categories:
   - Security Analytics
 tags:
@@ -14,28 +15,32 @@ last_modified_at: 2018-01-17T21:01:00+10:00
 author: Glenn Bolton
 ---
 
-Okay, I've already lied to you - sorry about that. The term _real time_ might be a bit of a stretch, let me explain.
+The [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) service records the history of AWS API calls for your account. You can use this to your advantage to automatically detect when _someone_ or _something_ makes a dangerous security group change in your account.
 
-Typically, when ingesting CloudTrail logs into Splunk you'll first configure CloudTrail to send events to S3 with notifications sent to SNS + SQS when a new log file is delivered. Splunk is then configured with the CloudTrail input, which polls for SQS for notifications before downloading log files from S3 which are then indexed for searching.
+Also, I've already lied to you - sorry about that. The term _real time_ might be a bit of a stretch here so let me explain.
 
-In practice, this typically amounts to a delay of 10-20 minutes before your CloudTrail events are searchable in Splunk. For most use cases, this delay isn't a deal breaker; near enough is good enough.
+Typically, when ingesting CloudTrail logs into Splunk you'll first configure CloudTrail to send events to S3 with notifications sent to SNS + SQS when a new log file is delivered. Splunk is then configured with the CloudTrail input, which polls SQS for notifications before downloading log files from S3 which are then indexed for searching.
 
-There are some newer approaches which involve Kinesis and Splunk HTTP Event Collector to push streams of events to Splunk, rather than the standard push-pull approach, but I've yet to test that to see if it's significantly faster.
+In practice, this typically amounts to a delay of 10-20 minutes before your CloudTrail events are searchable in Splunk. Some of this delay is on the AWS side of things and can't be avoided.
 
-## Enable CloudTrail
-This part's a piece of cake:
+A newer approach involves using Kinesis and Splunk HTTP Event Collector to push streams of events to Splunk, rather than the standard push-pull approach. This option might work out a bit faster (I haven't tried it yet), but you'll still be limited by the speed of CloudTrail log delivery on AWS' side.
+
+Here's how to get this setup, and how to search for security group changes that open specific ports to the internet.
+
+## 1. Enable CloudTrail
+This part's a piece of cake and can be done entirely in the AWS console:
 1. [Configure CloudTrail to send events to S3](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-a-trail-using-the-console-first-time.html)
 2. Make sure you've enabled [SNS notifications](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/configure-sns-notifications-for-cloudtrail.html) 
 3. [Create a standard SQS queue](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-create-queue.html)
 4. [Subscribe the queue to the SNS topic](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-subscribe-queue-sns-topic.html) from step 2.
 
-## Configure Splunk
+## 2. Configure Splunk
 1. [Follow the instructions for configuring an *SQS-based* S3 input](https://docs.splunk.com/Documentation/AddOns/released/AWS/SQS-basedS3).
 
-## Search for Events
-Let's get straight to business, here's the query you need to find CloudTrail events where potentially dangerous ports are exposed to the internet:
+## 3. Search for Events
+Let's get straight to business, here's the query you need to find security group changes where potentially dangerous ports are exposed to the internet:
 
-```javascript
+```text
 index=aws-cloudtrail eventName=AuthorizeSecurityGroupIngress
 | spath output=ipp path=requestParameters.ipPermissions.items{}
 | spath output=securityGroup path=requestParameters.groupId
@@ -60,9 +65,9 @@ In case you're new to Splunk, or not maybe just not familiar with `spath` and `m
 
 1. `index=aws-cloudtrail eventName=AuthorizeSecurityGroupIngress`<br>
   - This tells Splunk to search for events in the 'aws-cloudtrail' index which have the CloudTrail event name `AuthorizeSecurityGroupIngress`. If your index is called something else, you will need to adjust this line accordingly.
-1. The [`spath`](https://docs.splunk.com/Documentation/SplunkCloud/6.6.3/SearchReference/Spath) command lets you easily perform inline field extraction from complex data types, like JSON.
+1. The `spath` [📚](https://docs.splunk.com/Documentation/SplunkCloud/6.6.3/SearchReference/Spath) command lets you easily perform inline field extraction from complex data types, like JSON.
  - Here we pull out some useful parts of the JSON event, like the [IpPermission](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_IpPermission.html) data, referring to it here as `ipp`.
-1. You'll notice two [`mvexpand`](http://docs.splunk.com/Documentation/SplunkCloud/6.6.3/SearchReference/Mvexpand) commands. 
+1. You'll notice two `mvexpand` [📚](http://docs.splunk.com/Documentation/SplunkCloud/6.6.3/SearchReference/Mvexpand) commands. 
  - An `AuthorizeSecurityGroupIngress` event can contain multiple `IpPermission`s, so we expand these into separate events. 
  - An `IpPermission` can contain more than one source CIDR, so we expand these into separate events as well.
 1. `| search srcCidrs="0.0.0.0/0"`
@@ -75,7 +80,7 @@ In case you're new to Splunk, or not maybe just not familiar with `spath` and `m
 ## The better way
 **_The better way_ is security as code offering reliable, repeatable and scalable controls that automatically intervene when security problems occur.**
 
-The [Defendable Design project](https://github.com/defendabledesign) is my attempt at building a standard, self-healing design for strong security on AWS using security as code to orchestrate AWS-native functionality, including [AWS CloudTrail](https://aws.amazon.com/cloudtrail/), [AWS Config](https://aws.amazon.com/config/) and [AWS Lambda](https://aws.amazon.com/lambda/).
+The [Defendable Design project](https://github.com/defendabledesign) attempts to build a standard, self-healing design for strong security on AWS using security as code to orchestrate AWS-native functionality, including [AWS CloudTrail](https://aws.amazon.com/cloudtrail/), [AWS Config](https://aws.amazon.com/config/) and [AWS Lambda](https://aws.amazon.com/lambda/).
 
 While it's still early days, the project already **detects and automatically rolls back dangerous security group changes** and might be a better choice for you than automatically detecting, but manually remediating security misconfigurations. 
 

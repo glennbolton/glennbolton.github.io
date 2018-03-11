@@ -8,7 +8,6 @@ tags:
   - defendable design
   - aws
   - terraform
-  - secdevops
   - devsecops
 last_modified_at: 2017-11-25T16:27:00+10:00
 author: Glenn Bolton

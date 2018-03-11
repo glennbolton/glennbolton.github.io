@@ -32,4 +32,4 @@ The latest update to [DD-AWS](https://github.com/DefendableDesign/DD-AWS/release
     ![Image of Slack alerts for a leaky S3 Bucket](/assets/images/posts/2018-03-11-slack-integration.png)
 
 Download the latest release from GitHub to try it out:
-https://github.com/DefendableDesign/DD-AWS/releases/tag/v0.2.0
+[https://github.com/DefendableDesign/DD-AWS/releases/tag/v0.2.0](https://github.com/DefendableDesign/DD-AWS/releases/tag/v0.2.0)

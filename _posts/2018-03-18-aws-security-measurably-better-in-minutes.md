@@ -31,7 +31,7 @@ For the sake of keeping it simple, I've excluded any of the _manual_ checks from
 
 Obviously, your mileage may vary, and depending on how you run things the numbers in your own account might differ.
 
-![Infographic descripting download, deploy and measure approach.](/assets/images/posts/2018-03-18-better-in-5.png)
+![Infographic describing the download, deploy and measure approach.](/assets/images/posts/2018-03-18-better-in-5.png)
 
 ## Download, deploy, measure
 **Download** the latest release from GitHub to try it out:<br/>

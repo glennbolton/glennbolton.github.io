@@ -1,0 +1,876 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" 
+  xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="-1040.8888888888887 -32 1889.7777777777776 1063" id="ccdiagram">
+  <defs>
+    <style type="text/css">@import url(&#x27;https://fonts.googleapis.com/css?family=Open+Sans:400,700&#x27;);</style>
+  </defs>
+  <g>
+    <g style="pointer-events:none">
+      <g>
+        <pattern id="gridPatternMinor" x="0" y="37" width="128" height="74" patternUnits="userSpaceOnUse">
+          <path d="M 0 0 L 128 74" stroke="#eee" stroke-width="1"></path>
+          <path d="M 128 0 L 0 74" stroke="#eee" stroke-width="1"></path>
+        </pattern>
+        <polygon points="0 0, 768 444, -192 999, -960 555" fill="url(#gridPatternMinor)"></polygon>
+      </g>
+      <polygon points="-960 555, -960 565, -192 1009, -192 999" stroke-linejoin="round" stroke="#54626f" stroke-width="1" fill="#f9f9f9"></polygon>
+      <polygon points="-192 1009, 768 454, 768 444, -192 999" stroke-linejoin="round" stroke="#54626f" stroke-width="1" fill="#e2e2e2"></polygon>
+    </g>
+    <g pointer-events="">
+      <g opacity="1">
+        <g>
+          <g>
+            <polygon points="160 259, 320 352, 320 389, 224 444, 160 444, 0 352, 0 315, 96 259" fill="#ffffff" stroke-width="2" stroke="#818181"></polygon>
+            <polygon points="128 278, 288 370, 192 426, 32 333" fill="#e6e7e8" stroke-width="0" stroke="#818181"></polygon>
+          </g>
+        </g>
+      </g>
+      <g opacity="1">
+        <g>
+          <g>
+            <polygon points="-256 426, -96 518, -96 555, -192 611, -256 611, -416 518, -416 481, -320 426" fill="#ffffff" stroke-width="2" stroke="#818181"></polygon>
+            <polygon points="-288 444, -128 537, -224 592, -384 500" fill="#e6e7e8" stroke-width="0" stroke="#818181"></polygon>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g style="pointer-events:none">
+      <g>
+        <pattern id="gridPatternMajor" x="0" y="37" width="128" height="74" patternUnits="userSpaceOnUse">
+          <path d="M 64 0 L 128 37 64 74 0 37 z" stroke="#54626f" stroke-width="1" fill="none"></path>
+        </pattern>
+        <polygon points="0 0, 768 444, -192 999, -960 555" fill="url(#gridPatternMajor)"></polygon>
+      </g>
+    </g>
+    <g pointer-events=""></g>
+    <g pointer-events="none"></g>
+    <g pointer-events="">
+      <g>
+        <g cursor="cell">
+          <line x1="-576" y1="740" x2="-790" y2="616" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-576" y1="740" x2="-790" y2="616" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-800 611, -791 625, -788 618, -774 616, -800 611" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="0" y1="407" x2="96" y2="352" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="0" y1="407" x2="96" y2="352" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="-784" y1="564" x2="-160" y2="204" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-784" y1="564" x2="-160" y2="204" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="64" y1="444" x2="160" y2="389" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="64" y1="444" x2="160" y2="389" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="-374" y1="549" x2="-330" y2="524" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-374" y1="549" x2="-330" y2="524" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-384 555, -358 550, -372 548, -375 540, -384 555" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+          <polygon points="-320 518, -346 523, -332 525, -329 533, -320 518" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="-51" y1="451" x2="192" y2="592" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-51" y1="451" x2="192" y2="592" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="144" y1="342" x2="-86" y2="209" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="144" y1="342" x2="-86" y2="209" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-96 204, -87 218, -84 211, -70 209, -96 204" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="240" y1="342" x2="342" y2="283" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="240" y1="342" x2="342" y2="283" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="352 278, 326 283, 340 285, 343 292, 352 278" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="-176" y1="509" x2="-156" y2="466" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-176" y1="509" x2="-156" y2="466" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-153 458, -170 470, -157 468, -148 474, -153 458" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="-80" y1="157" x2="22" y2="98" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-80" y1="157" x2="22" y2="98" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="32 93, 6 98, 20 100, 23 107, 32 93" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="80" y1="305" x2="-96" y2="204" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="80" y1="305" x2="-96" y2="204" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="-240" y1="472" x2="-166" y2="460" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-240" y1="472" x2="-166" y2="460" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-153 458, -180 456, -170 461, -174 468, -153 458" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="-310" y1="586" x2="-266" y2="561" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-310" y1="586" x2="-266" y2="561" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-320 592, -294 587, -308 585, -311 577, -320 592" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+          <polygon points="-256 555, -282 560, -268 562, -265 570, -256 555" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="-445" y1="732" x2="-419" y2="655" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-445" y1="732" x2="-419" y2="655" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-448 740, -432 727, -445 730, -454 725, -448 740" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+          <polygon points="-416 648, -432 660, -419 658, -410 663, -416 648" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="176" y1="305" x2="278" y2="246" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="176" y1="305" x2="278" y2="246" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="288 241, 262 246, 276 248, 279 255, 288 241" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="-435" y1="741" x2="-237" y2="757" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-435" y1="741" x2="-237" y2="757" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-448 740, -425 749, -431 741, -422 735, -448 740" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+          <polygon points="-224 759, -247 750, -241 757, -250 763, -224 759" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="-450" y1="732" x2="-478" y2="618" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-450" y1="732" x2="-478" y2="618" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-448 740, -440 725, -450 730, -463 727, -448 740" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+          <polygon points="-480 611, -488 626, -478 621, -465 624, -480 611" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="192" y1="592" x2="224" y2="574" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="192" y1="592" x2="224" y2="574" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="352" y1="500" x2="314" y2="522" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="352" y1="500" x2="314" y2="522" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="304 527, 330 522, 316 520, 313 512, 304 527" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="208" y1="527" x2="0" y2="407" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="208" y1="527" x2="0" y2="407" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="-435" y1="738" x2="-301" y2="723" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-435" y1="738" x2="-301" y2="723" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-448 740, -422 744, -431 738, -426 731, -448 740" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+          <polygon points="-288 722, -314 718, -305 724, -310 731, -288 722" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g cursor="cell">
+          <line x1="208" y1="527" x2="64" y2="444" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="208" y1="527" x2="64" y2="444" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+        </g>
+      </g>
+    </g>
+    <g pointer-events="">
+      <g opacity="1">
+        <g id="ba84b3ca-3e2c-4537-86e3-b14919d0aa63" transform="translate(0 0)">
+          <g>
+            <polygon points="64 0, 128 37, 64 74, 0 37" fill="#ececed"></polygon>
+            <polygon points="0 74, 64 111, 64 74, 0 37" fill="#d2d2d4" stroke="#83838a"></polygon>
+            <polygon points="64 111, 128 74, 128 37, 64 74" fill="#b8b8bb" stroke="#83838a"></polygon>
+            <polygon points="64 0, 0 37, 0 74, 64 111, 128 74, 128 37" fill="none" stroke="#000000" stroke-width="2"></polygon>
+          </g>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="92f6fe1c-b4e2-4db3-a6b3-15566dedb1be" transform="translate(0 0)">
+          <svg x="-176" y="99" height="113.438" width="96" viewBox="0 0 25.400052 30.013873">
+            <g transform="translate(412.599 -86.957)">
+              <path d="M-412.333 102.348v4.786l8.29 4.785h8.289l8.29-4.785v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 111.92l8.29-4.786v4.785l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 111.92h8.29v4.785h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 107.134v4.785l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 107.134l8.29 4.785h8.289l8.29-4.785M-404.044 111.92v4.785M-395.754 111.92v4.785" fill="none" stroke="#5e5e5e" stroke-width=".26588"></path>
+              <path d="M-412.333 102.348v9.571l8.29 4.786h8.289l8.29-4.786v-9.571l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".53176"></path>
+              <path d="M-412.333 97.178v4.786l8.29 4.786h8.289l8.29-4.786v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 106.75l8.29-4.786v4.786l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 106.75h8.29v4.786h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 101.964v4.786l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 101.964l8.29 4.786h8.289l8.29-4.786M-404.044 106.75v4.786M-395.754 106.75v4.786" fill="none" stroke="#5e5e5e" stroke-width=".266"></path>
+              <path d="M-412.333 97.178v9.572l8.29 4.786h8.289l8.29-4.786v-9.572l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".532"></path>
+              <path d="M-412.333 92.01v4.785l8.29 4.786h8.289l8.29-4.786v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 101.58l8.29-4.785v4.786l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 101.58h8.29v4.787h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 96.795v4.786l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 96.795l8.29 4.786h8.289l8.29-4.786M-404.044 101.58v4.787M-395.754 101.58v4.787" fill="none" stroke="#5e5e5e" stroke-width=".266"></path>
+              <path d="M-412.333 92.01v9.57l8.29 4.787h8.289l8.29-4.786v-9.572l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".532"></path>
+              <circle cx="-136.478" cy="325.284" fill="#f4b934" r="5.801" transform="scale(1.22475 .7071) rotate(45)"></circle>
+              <g style="line-height:0%" font-family="sans-serif" font-size="3.191" stroke-width=".266">
+                <path style="line-height:1.25;-inkscape-font-specification:&#x27;Droid Serif&#x27;" d="M-399.242 93.57l.48-.601q.222-.275.177-.448-.04-.17-.467-.416l-.507-.293 1.065-.614.937.541q.825.476.92.934.1.46-.417 1.114l-3.452 4.39-1.622-.937 1.654-2.121-3.729.923-1.622-.936z" fill="#fff" font-family="Droid Serif" font-size="9.971"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="5acafd36-8f4e-4af3-ad27-ec8ae318640f" transform="translate(0 0)">
+          <g>
+            <polygon points="320 148, 384 185, 320 222, 256 185" fill="#ececed"></polygon>
+            <polygon points="256 222, 320 259, 320 222, 256 185" fill="#d2d2d4" stroke="#83838a"></polygon>
+            <polygon points="320 259, 384 222, 384 185, 320 222" fill="#b8b8bb" stroke="#83838a"></polygon>
+            <polygon points="320 148, 256 185, 256 222, 320 259, 384 222, 384 185" fill="none" stroke="#000000" stroke-width="2"></polygon>
+          </g>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="64c703c7-2708-457d-9dec-25d5630b1b35" transform="translate(0 0)">
+          <g>
+            <polygon points="384 185, 448 222, 384 259, 320 222" fill="#ececed"></polygon>
+            <polygon points="320 259, 384 296, 384 259, 320 222" fill="#d2d2d4" stroke="#83838a"></polygon>
+            <polygon points="384 296, 448 259, 448 222, 384 259" fill="#b8b8bb" stroke="#83838a"></polygon>
+            <polygon points="384 185, 320 222, 320 259, 384 296, 448 259, 448 222" fill="none" stroke="#000000" stroke-width="2"></polygon>
+          </g>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="59db2376-161d-4957-8de2-2299d25ab051" transform="translate(0 0)">
+          <svg x="80" y="247" height="113.438" width="96" viewBox="0 0 25.400052 30.013873">
+            <g transform="translate(412.599 -86.957)">
+              <path d="M-412.333 102.348v4.786l8.29 4.785h8.289l8.29-4.785v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 111.92l8.29-4.786v4.785l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 111.92h8.29v4.785h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 107.134v4.785l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 107.134l8.29 4.785h8.289l8.29-4.785M-404.044 111.92v4.785M-395.754 111.92v4.785" fill="none" stroke="#5e5e5e" stroke-width=".26588"></path>
+              <path d="M-412.333 102.348v9.571l8.29 4.786h8.289l8.29-4.786v-9.571l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".53176"></path>
+              <path d="M-412.333 97.178v4.786l8.29 4.786h8.289l8.29-4.786v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 106.75l8.29-4.786v4.786l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 106.75h8.29v4.786h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 101.964v4.786l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 101.964l8.29 4.786h8.289l8.29-4.786M-404.044 106.75v4.786M-395.754 106.75v4.786" fill="none" stroke="#5e5e5e" stroke-width=".266"></path>
+              <path d="M-412.333 97.178v9.572l8.29 4.786h8.289l8.29-4.786v-9.572l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".532"></path>
+              <path d="M-412.333 92.01v4.785l8.29 4.786h8.289l8.29-4.786v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 101.58l8.29-4.785v4.786l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 101.58h8.29v4.787h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 96.795v4.786l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 96.795l8.29 4.786h8.289l8.29-4.786M-404.044 101.58v4.787M-395.754 101.58v4.787" fill="none" stroke="#5e5e5e" stroke-width=".266"></path>
+              <path d="M-412.333 92.01v9.57l8.29 4.787h8.289l8.29-4.786v-9.572l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".532"></path>
+              <circle cx="-136.478" cy="325.284" fill="#f4b934" r="5.801" transform="scale(1.22475 .7071) rotate(45)"></circle>
+              <g style="line-height:0%" font-family="sans-serif" font-size="3.191" stroke-width=".266">
+                <path style="line-height:1.25;-inkscape-font-specification:&#x27;Droid Serif&#x27;" d="M-399.242 93.57l.48-.601q.222-.275.177-.448-.04-.17-.467-.416l-.507-.293 1.065-.614.937.541q.825.476.92.934.1.46-.417 1.114l-3.452 4.39-1.622-.937 1.654-2.121-3.729.923-1.622-.936z" fill="#fff" font-family="Droid Serif" font-size="9.971"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="6b509870-d836-4e1a-8332-46ed6abf748b" transform="translate(0 0)">
+          <svg x="144" y="284" height="113.438" width="96" viewBox="0 0 25.400052 30.013873">
+            <g transform="translate(412.599 -86.957)">
+              <path d="M-412.333 102.348v4.786l8.29 4.785h8.289l8.29-4.785v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 111.92l8.29-4.786v4.785l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 111.92h8.29v4.785h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 107.134v4.785l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 107.134l8.29 4.785h8.289l8.29-4.785M-404.044 111.92v4.785M-395.754 111.92v4.785" fill="none" stroke="#5e5e5e" stroke-width=".26588"></path>
+              <path d="M-412.333 102.348v9.571l8.29 4.786h8.289l8.29-4.786v-9.571l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".53176"></path>
+              <path d="M-412.333 97.178v4.786l8.29 4.786h8.289l8.29-4.786v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 106.75l8.29-4.786v4.786l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 106.75h8.29v4.786h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 101.964v4.786l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 101.964l8.29 4.786h8.289l8.29-4.786M-404.044 106.75v4.786M-395.754 106.75v4.786" fill="none" stroke="#5e5e5e" stroke-width=".266"></path>
+              <path d="M-412.333 97.178v9.572l8.29 4.786h8.289l8.29-4.786v-9.572l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".532"></path>
+              <path d="M-412.333 92.01v4.785l8.29 4.786h8.289l8.29-4.786v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 101.58l8.29-4.785v4.786l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 101.58h8.29v4.787h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 96.795v4.786l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 96.795l8.29 4.786h8.289l8.29-4.786M-404.044 101.58v4.787M-395.754 101.58v4.787" fill="none" stroke="#5e5e5e" stroke-width=".266"></path>
+              <path d="M-412.333 92.01v9.57l8.29 4.787h8.289l8.29-4.786v-9.572l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".532"></path>
+              <circle cx="-136.478" cy="325.284" fill="#f4b934" r="5.801" transform="scale(1.22475 .7071) rotate(45)"></circle>
+              <g style="line-height:0%" font-family="sans-serif" font-size="3.191" stroke-width=".266">
+                <path style="line-height:1.25;-inkscape-font-specification:&#x27;Droid Serif&#x27;" d="M-399.242 93.57l.48-.601q.222-.275.177-.448-.04-.17-.467-.416l-.507-.293 1.065-.614.937.541q.825.476.92.934.1.46-.417 1.114l-3.452 4.39-1.622-.937 1.654-2.121-3.729.923-1.622-.936z" fill="#fff" font-family="Droid Serif" font-size="9.971"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="b3e5c2f0-65c0-47a3-ad3c-c607112cc2d0" transform="translate(0 0)">
+          <svg x="-179" y="377" height="97.168" width="167.64" viewBox="0 0 44.354709 25.709038">
+            <path d="M33.976 7.743l-2.77-1.6 2.63-.72 2.634-.72-1.248 1.52z" fill="#f4b934" stroke="#000000" stroke-linecap="round" stroke-width=".265"></path>
+            <path d="M16.763 18.904l6.761 6.491 20.284-11.71-6.761-6.415" fill="#ececed" fill-rule="evenodd"></path>
+            <path d="M28.9 10.628l-2.77-1.6 2.63-.72 2.635-.72-1.25 1.52zM23.945 13.586l-2.77-1.6 2.631-.72 2.634-.72-1.249 1.52zM18.781 16.527l-2.77-1.6 2.631-.72 2.634-.72-1.249 1.52zM13.748 19.422l-2.77-1.6 2.631-.72 2.634-.719-1.249 1.52zM8.655 22.371l-2.77-1.6 2.631-.72 2.634-.72-1.249 1.52z" fill="#f4b934" stroke="#000000" stroke-linecap="round" stroke-width=".265"></path>
+            <path d="M16.763 18.98v2.512l6.761 3.903z" fill="#d2d2d4" fill-rule="evenodd"></path>
+            <path d="M.364 12.17l6.87 1.436L27.402 1.74 20.84.228z" fill="#ececed" fill-rule="evenodd"></path>
+            <path d="M16.872 18.989l6.76 6.415" fill="none" stroke="#83838a" stroke-width=".265"></path>
+            <path d="M16.872 21.5l6.76 3.904 20.284-11.711-6.76-6.453-20.284 11.71z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="M7.234 13.666L.472 12.273l6.762 3.904z" fill="#d2d2d4" fill-rule="evenodd"></path>
+            <path d="M7.364 13.575v2.618l20.284-11.61v-2.8z" fill="#b8b8bb" fill-rule="evenodd"></path>
+            <path d="M7.288 13.628v2.549" fill="none" stroke="#83838a" stroke-width=".265"></path>
+            <path d="M.472 12.273l6.762 3.904 20.283-11.71V1.811L7.196 13.632z" fill="none"></path>
+            <path d="M.603 12.298l6.761 1.305 20.087-11.69" fill="none" stroke="#83838a" stroke-width=".265"></path>
+            <path d="M.525 12.286l6.84 3.948 20.283-11.71V1.864L20.887.282z" fill="none" stroke="#000000" stroke-width=".529"></path>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="d0e88bcb-efdd-4bc0-88ed-b7a2e350bf55" transform="translate(0 0)">
+          <g>
+            <polygon points="384 407, 448 444, 384 481, 320 444" fill="#ececed"></polygon>
+            <polygon points="320 481, 384 518, 384 481, 320 444" fill="#d2d2d4" stroke="#83838a"></polygon>
+            <polygon points="384 518, 448 481, 448 444, 384 481" fill="#b8b8bb" stroke="#83838a"></polygon>
+            <polygon points="384 407, 320 444, 320 481, 384 518, 448 481, 448 444" fill="none" stroke="#000000" stroke-width="2"></polygon>
+          </g>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="72235ea6-36b3-480e-8631-3bb4e1ff3a27" transform="translate(0 0)">
+          <svg x="-336" y="414" height="113.438" width="96" viewBox="0 0 25.400052 30.013873">
+            <g transform="translate(412.599 -86.957)">
+              <path d="M-412.333 102.348v4.786l8.29 4.785h8.289l8.29-4.785v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 111.92l8.29-4.786v4.785l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 111.92h8.29v4.785h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 107.134v4.785l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 107.134l8.29 4.785h8.289l8.29-4.785M-404.044 111.92v4.785M-395.754 111.92v4.785" fill="none" stroke="#5e5e5e" stroke-width=".26588"></path>
+              <path d="M-412.333 102.348v9.571l8.29 4.786h8.289l8.29-4.786v-9.571l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".53176"></path>
+              <path d="M-412.333 97.178v4.786l8.29 4.786h8.289l8.29-4.786v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 106.75l8.29-4.786v4.786l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 106.75h8.29v4.786h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 101.964v4.786l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 101.964l8.29 4.786h8.289l8.29-4.786M-404.044 106.75v4.786M-395.754 106.75v4.786" fill="none" stroke="#5e5e5e" stroke-width=".266"></path>
+              <path d="M-412.333 97.178v9.572l8.29 4.786h8.289l8.29-4.786v-9.572l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".532"></path>
+              <path d="M-412.333 92.01v4.785l8.29 4.786h8.289l8.29-4.786v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 101.58l8.29-4.785v4.786l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 101.58h8.29v4.787h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 96.795v4.786l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 96.795l8.29 4.786h8.289l8.29-4.786M-404.044 101.58v4.787M-395.754 101.58v4.787" fill="none" stroke="#5e5e5e" stroke-width=".266"></path>
+              <path d="M-412.333 92.01v9.57l8.29 4.787h8.289l8.29-4.786v-9.572l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".532"></path>
+              <circle cx="-136.478" cy="325.284" fill="#f4b934" r="5.801" transform="scale(1.22475 .7071) rotate(45)"></circle>
+              <g style="line-height:0%" font-family="sans-serif" font-size="3.191" stroke-width=".266">
+                <path style="line-height:1.25;-inkscape-font-specification:&#x27;Droid Serif&#x27;" d="M-399.242 93.57l.48-.601q.222-.275.177-.448-.04-.17-.467-.416l-.507-.293 1.065-.614.937.541q.825.476.92.934.1.46-.417 1.114l-3.452 4.39-1.622-.937 1.654-2.121-3.729.923-1.622-.936z" fill="#fff" font-family="Droid Serif" font-size="9.971"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="a987f451-99ec-4456-b141-2de916b23a46" transform="translate(0 0)">
+          <svg x="-272" y="451" height="113.438" width="96" viewBox="0 0 25.400052 30.013873">
+            <g transform="translate(412.599 -86.957)">
+              <path d="M-412.333 102.348v4.786l8.29 4.785h8.289l8.29-4.785v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 111.92l8.29-4.786v4.785l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 111.92h8.29v4.785h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 107.134v4.785l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 107.134l8.29 4.785h8.289l8.29-4.785M-404.044 111.92v4.785M-395.754 111.92v4.785" fill="none" stroke="#5e5e5e" stroke-width=".26588"></path>
+              <path d="M-412.333 102.348v9.571l8.29 4.786h8.289l8.29-4.786v-9.571l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".53176"></path>
+              <path d="M-412.333 97.178v4.786l8.29 4.786h8.289l8.29-4.786v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 106.75l8.29-4.786v4.786l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 106.75h8.29v4.786h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 101.964v4.786l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 101.964l8.29 4.786h8.289l8.29-4.786M-404.044 106.75v4.786M-395.754 106.75v4.786" fill="none" stroke="#5e5e5e" stroke-width=".266"></path>
+              <path d="M-412.333 97.178v9.572l8.29 4.786h8.289l8.29-4.786v-9.572l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".532"></path>
+              <path d="M-412.333 92.01v4.785l8.29 4.786h8.289l8.29-4.786v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 101.58l8.29-4.785v4.786l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 101.58h8.29v4.787h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 96.795v4.786l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 96.795l8.29 4.786h8.289l8.29-4.786M-404.044 101.58v4.787M-395.754 101.58v4.787" fill="none" stroke="#5e5e5e" stroke-width=".266"></path>
+              <path d="M-412.333 92.01v9.57l8.29 4.787h8.289l8.29-4.786v-9.572l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".532"></path>
+              <circle cx="-136.478" cy="325.284" fill="#f4b934" r="5.801" transform="scale(1.22475 .7071) rotate(45)"></circle>
+              <g style="line-height:0%" font-family="sans-serif" font-size="3.191" stroke-width=".266">
+                <path style="line-height:1.25;-inkscape-font-specification:&#x27;Droid Serif&#x27;" d="M-399.242 93.57l.48-.601q.222-.275.177-.448-.04-.17-.467-.416l-.507-.293 1.065-.614.937.541q.825.476.92.934.1.46-.417 1.114l-3.452 4.39-1.622-.937 1.654-2.121-3.729.923-1.622-.936z" fill="#fff" font-family="Droid Serif" font-size="9.971"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="4d45763d-4d66-419a-9480-3606437ccfcc" transform="translate(0 0)">
+          <svg x="208" y="469" height="113.438" width="96" viewBox="0 0 25.400052 30.013873">
+            <g transform="translate(412.599 -86.957)">
+              <path d="M-412.333 102.348v4.786l8.29 4.785h8.289l8.29-4.785v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 111.92l8.29-4.786v4.785l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 111.92h8.29v4.785h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 107.134v4.785l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 107.134l8.29 4.785h8.289l8.29-4.785M-404.044 111.92v4.785M-395.754 111.92v4.785" fill="none" stroke="#5e5e5e" stroke-width=".26588"></path>
+              <path d="M-412.333 102.348v9.571l8.29 4.786h8.289l8.29-4.786v-9.571l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".53176"></path>
+              <path d="M-412.333 97.178v4.786l8.29 4.786h8.289l8.29-4.786v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 106.75l8.29-4.786v4.786l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 106.75h8.29v4.786h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 101.964v4.786l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 101.964l8.29 4.786h8.289l8.29-4.786M-404.044 106.75v4.786M-395.754 106.75v4.786" fill="none" stroke="#5e5e5e" stroke-width=".266"></path>
+              <path d="M-412.333 97.178v9.572l8.29 4.786h8.289l8.29-4.786v-9.572l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".532"></path>
+              <path d="M-412.333 92.01v4.785l8.29 4.786h8.289l8.29-4.786v-4.786l-8.29-4.786h-8.29z" fill="#3c3c3c" fill-rule="evenodd"></path>
+              <path d="M-395.754 101.58l8.29-4.785v4.786l-8.29 4.786z" fill="#090909" fill-rule="evenodd"></path>
+              <path d="M-404.044 101.58h8.29v4.787h-8.29z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 96.795v4.786l8.29 4.786v-4.786z" fill="#232323" fill-rule="evenodd"></path>
+              <path d="M-412.333 96.795l8.29 4.786h8.289l8.29-4.786M-404.044 101.58v4.787M-395.754 101.58v4.787" fill="none" stroke="#5e5e5e" stroke-width=".266"></path>
+              <path d="M-412.333 92.01v9.57l8.29 4.787h8.289l8.29-4.786v-9.572l-8.29-4.786h-8.29z" fill="none" stroke="#000000" stroke-width=".532"></path>
+              <circle cx="-136.478" cy="325.284" fill="#f4b934" r="5.801" transform="scale(1.22475 .7071) rotate(45)"></circle>
+              <g style="line-height:0%" font-family="sans-serif" font-size="3.191" stroke-width=".266">
+                <path style="line-height:1.25;-inkscape-font-specification:&#x27;Droid Serif&#x27;" d="M-399.242 93.57l.48-.601q.222-.275.177-.448-.04-.17-.467-.416l-.507-.293 1.065-.614.937.541q.825.476.92.934.1.46-.417 1.114l-3.452 4.39-1.622-.937 1.654-2.121-3.729.923-1.622-.936z" fill="#fff" font-family="Droid Serif" font-size="9.971"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="f0abbf10-b97d-47c7-b5cc-48fa9cac4cfe" transform="translate(0 0)">
+          <svg x="-881" y="499" height="120.799" width="97" viewBox="0 0 25.664585 31.961517">
+            <path d="M.269 5.1v21.761l8.375 4.836V9.937z" fill="#d2d2d4" fill-rule="evenodd"></path>
+            <path d="M4.457 2.682v4.836l4.187 2.418h8.376l4.188-2.418V2.682L17.02.265H8.644z" fill="none" stroke="#000" stroke-width=".269"></path>
+            <path d="M8.644 9.936h8.376v21.76H8.644z" fill="#d2d2d4" fill-rule="evenodd"></path>
+            <path d="M.269 5.1v4.836l8.375 4.836h8.376l8.376-4.836V5.1L17.02.265H8.644z" fill="#ececed" fill-rule="evenodd"></path>
+            <path d="M17.02 9.936L25.396 5.1v21.761l-8.376 4.836z" fill="#b8b8bb" fill-rule="evenodd"></path>
+            <path d="M8.644 14.772V9.936h8.376v4.836z" fill="none" stroke="#83838a" stroke-width=".269"></path>
+            <g fill="none" stroke="#83838a">
+              <path d="M.269 5.1l8.375 4.836h8.376L25.396 5.1M8.644 9.936v21.76M17.02 9.936v21.76" stroke-width=".26865"></path>
+            </g>
+            <path d="M.269 9.936l4.188-2.418V2.682L.269 5.1z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-width=".269"></path>
+            <path d="M8.644 14.772V9.936L4.457 7.518.269 9.936z" fill="none" stroke="#83838a" stroke-width=".269"></path>
+            <path d="M21.208 7.518V2.682L25.396 5.1v4.836" fill="#d3d3d3" fill-rule="evenodd" stroke="#83838a" stroke-width=".269"></path>
+            <path d="M25.396 9.936l-4.188-2.418-4.188 2.418v4.836z" fill="#d3d3d3" fill-rule="evenodd" stroke="#83838a" stroke-width=".269"></path>
+            <path d="M.269 5.1v21.761l8.375 4.836h8.376l8.376-4.836V5.101L17.02.264H8.644z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <g transform="scale(.29127 .16816) rotate(45 -326.555 -2684.243)">
+              <circle cx="1484" cy="-2012" fill="#4286c5" r="17.6" transform="matrix(1.25 0 0 1.25 0 1488.188)"></circle>
+              <path d="M1847.206-1009.63h15.588l-7.794-4.5zM1847.206-1017.135h15.588v-4.5h-15.588zM1847.206-1024.563h15.588v-4.5h-15.588zM1847.206-1031.99h15.588v-4.5h-15.588zM1847.206-1039.418h15.588l-7.794-4.5z" fill="#fff" fill-rule="evenodd"></path>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="57f9d00b-9539-42e2-a8e0-b495c331dfc5" transform="translate(0 0)">
+          <g>
+            <polygon points="-448 518, -384 555, -448 592, -512 555" fill="#ececed"></polygon>
+            <polygon points="-512 592, -448 629, -448 592, -512 555" fill="#d2d2d4" stroke="#83838a"></polygon>
+            <polygon points="-448 629, -384 592, -384 555, -448 592" fill="#b8b8bb" stroke="#83838a"></polygon>
+            <polygon points="-448 518, -512 555, -512 592, -448 629, -384 592, -384 555" fill="none" stroke="#000000" stroke-width="2"></polygon>
+          </g>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="84bea89c-746c-4dd8-b112-ba841bd446c8" transform="translate(0 0)">
+          <g>
+            <polygon points="-384 555, -320 592, -384 629, -448 592" fill="#ececed"></polygon>
+            <polygon points="-448 629, -384 666, -384 629, -448 592" fill="#d2d2d4" stroke="#83838a"></polygon>
+            <polygon points="-384 666, -320 629, -320 592, -384 629" fill="#b8b8bb" stroke="#83838a"></polygon>
+            <polygon points="-384 555, -448 592, -448 629, -384 666, -320 629, -320 592" fill="none" stroke="#000000" stroke-width="2"></polygon>
+          </g>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="cfd4a527-5d38-4e6a-a201-bd3408374e53" transform="translate(0 0)">
+          <g>
+            <polygon points="-256 629, -192 666, -256 703, -320 666" fill="#ececed"></polygon>
+            <polygon points="-320 703, -256 740, -256 703, -320 666" fill="#d2d2d4" stroke="#83838a"></polygon>
+            <polygon points="-256 740, -192 703, -192 666, -256 703" fill="#b8b8bb" stroke="#83838a"></polygon>
+            <polygon points="-256 629, -320 666, -320 703, -256 740, -192 703, -192 666" fill="none" stroke="#000000" stroke-width="2"></polygon>
+          </g>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="3f40826a-d9e8-4639-8fa3-28df456f5dfb" transform="translate(0 0)">
+          <g>
+            <polygon points="-192 666, -128 703, -192 740, -256 703" fill="#ececed"></polygon>
+            <polygon points="-256 740, -192 777, -192 740, -256 703" fill="#d2d2d4" stroke="#83838a"></polygon>
+            <polygon points="-192 777, -128 740, -128 703, -192 740" fill="#b8b8bb" stroke="#83838a"></polygon>
+            <polygon points="-192 666, -256 703, -256 740, -192 777, -128 740, -128 703" fill="none" stroke="#000000" stroke-width="2"></polygon>
+          </g>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="622ac7f0-e442-4b8e-9386-3e7a927529ec" transform="translate(0 0)">
+          <g>
+            <polygon points="-512 703, -448 740, -512 777, -576 740" fill="#ececed"></polygon>
+            <polygon points="-576 777, -512 814, -512 777, -576 740" fill="#d2d2d4" stroke="#83838a"></polygon>
+            <polygon points="-512 814, -448 777, -448 740, -512 777" fill="#b8b8bb" stroke="#83838a"></polygon>
+            <polygon points="-512 703, -576 740, -576 777, -512 814, -448 777, -448 740" fill="none" stroke="#000000" stroke-width="2"></polygon>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g pointer-events=""></g>
+    <g pointer-events="">
+      <g opacity="1">
+        <g id="6165a7b3-9863-47eb-a2df-4a6c2babb99b" transform="translate(0 0)">
+          <svg x="-512" y="740" overflow="visible">
+            <g transform="scale(0.8944271909999159) matrix(0.707 0.409 -0.707 0.409 0 0)">
+              <svg width="100" height="100" x="-50" y="-50" style="fill:#000000">
+                <svg data-name="Layer 1" 
+                  xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                  <path fill="#3c4929" d="M56.7 33.16l17.64-11.93 9.57 11.93-16.5 2.39-10.71-2.39zM43.3 33.16L25.66 21.17l-9.57 11.99 16.5 2.39 10.71-2.39z"/>
+                  <path fill="#b7ca9d" d="M83.97 57.13L50 55.05l-33.96 2.08L50 91l33.97-33.87z"/>
+                  <path fill="#759c3e" d="M43.3 33.16l-17.64-3.35v-8.64l17.64 4.79v7.2z"/>
+                  <path fill="#4b612c" d="M16.09 33.16l9.57-3.35v-8.64l-9.57 4.78v7.21zM56.7 33.16l17.64-3.35v-8.64L56.7 25.96v7.2z"/>
+                  <path fill="#759c3e" d="M83.91 33.16l-9.57-3.35v-8.64l9.57 4.78v7.21z"/>
+                  <path fill="#4b612c" d="M16.04 50H50l33.97-5.1L50 33.6l-33.96 6.79V50zM50 91L16.04 74.02V57.13L50 62.18V91z"/>
+                  <path fill="#759c3e" d="M83.97 74.02L50 91V62.18l33.97-5.05v16.89zM83.97 50H50V33.6l33.97 6.79V50z"/>
+                  <path fill="#3c4929" d="M68.08 27.61L50 31.66l-18.08-4.05L50 9l18.08 18.61z"/>
+                  <path fill="#4b612c" d="M31.92 27.61L50 21.28V9l-18.08 9.04v9.57z"/>
+                  <path fill="#759c3e" d="M68.08 27.61L50 21.28V9l18.08 9.04v9.57z"/>
+                </svg>
+              </svg>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="17b92b86-f7b3-4d17-b591-2d7a2aea7af5" transform="translate(0 0)">
+          <svg x="-192" y="703" overflow="visible">
+            <g transform="scale(0.8944271909999159) matrix(0.707 0.409 -0.707 0.409 0 0)">
+              <svg width="100" height="100" x="-50" y="-50" style="fill:#ffffff">
+                <svg data-name="Layer 1" 
+                  xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                  <path fill="#4b612c" d="M40.83 39.13H25.59v16.65h15.24l7.5 7h26.09V46.13H48.33l-7.5-7z"/>
+                  <path fill="#4b612c" d="M48.33 64.78l-7.5-7H25.59v24.07h48.83V64.78H48.33zM48.33 27.63l-7.5-7H25.59v16.5h15.24l7.5 7h26.09v-16.5H48.33z"/>
+                  <path fill="#759c3e" d="M40.83 36.65H25.59V53.3h15.24l7.5 7h26.09V43.65H48.33l-7.5-7z"/>
+                  <path fill="#759c3e" d="M48.33 62.3l-7.5-7H25.59v24.07h48.83V62.3H48.33z"/>
+                  <path fill="#fff" d="M59.206 70.647l2.58-2.581 5.19 5.19-2.58 2.581z"/>
+                  <path fill="#fff" d="M61.88 73.308l8.315-8.315 2.531 2.531-8.315 8.316zM59.208 52l2.581-2.582 5.19 5.19-2.58 2.581z"/>
+                  <path fill="#fff" d="M61.882 54.66l8.315-8.315 2.532 2.532-8.316 8.315z"/>
+                  <path fill="#759c3e" d="M48.33 25.15l-7.5-7H25.59v16.5h15.24l7.5 7h26.09v-16.5H48.33z"/>
+                  <path fill="#fff" d="M60.547 35.927l8.316-8.316 2.531 2.532-8.315 8.315z"/>
+                  <path fill="#fff" d="M60.54 30.136l2.532-2.532 8.315 8.316-2.531 2.531z"/>
+                </svg>
+              </svg>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="f4f323ea-3210-4f6e-b1da-f2d9aa32043e" transform="translate(0 0)">
+          <svg x="-448" y="555" overflow="visible">
+            <g transform="scale(0.8944271909999159) matrix(0.707 0.409 -0.707 0.409 0 0)">
+              <svg width="100" height="100" x="-50" y="-50" style="fill:#ffffff">
+                <svg data-name="Layer 1" 
+                  xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                  <path fill="#4b612c" d="M40.83 39.13H25.59v16.65h15.24l7.5 7h26.09V46.13H48.33l-7.5-7z"/>
+                  <path fill="#4b612c" d="M48.33 64.78l-7.5-7H25.59v24.07h48.83V64.78H48.33zM48.33 27.63l-7.5-7H25.59v16.5h15.24l7.5 7h26.09v-16.5H48.33z"/>
+                  <path fill="#759c3e" d="M40.83 36.65H25.59V53.3h15.24l7.5 7h26.09V43.65H48.33l-7.5-7z"/>
+                  <path fill="#759c3e" d="M48.33 62.3l-7.5-7H25.59v24.07h48.83V62.3H48.33z"/>
+                  <path fill="#fff" d="M59.206 70.647l2.58-2.581 5.19 5.19-2.58 2.581z"/>
+                  <path fill="#fff" d="M61.88 73.308l8.315-8.315 2.531 2.531-8.315 8.316zM59.208 52l2.581-2.582 5.19 5.19-2.58 2.581z"/>
+                  <path fill="#fff" d="M61.882 54.66l8.315-8.315 2.532 2.532-8.316 8.315z"/>
+                  <path fill="#759c3e" d="M48.33 25.15l-7.5-7H25.59v16.5h15.24l7.5 7h26.09v-16.5H48.33z"/>
+                  <path fill="#fff" d="M60.547 35.927l8.316-8.316 2.531 2.532-8.315 8.315z"/>
+                  <path fill="#fff" d="M60.54 30.136l2.532-2.532 8.315 8.316-2.531 2.531z"/>
+                </svg>
+              </svg>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="c7933e5b-ad07-4a1f-90cb-f0a9b9ab66cf" transform="translate(0 0)">
+          <svg x="-256" y="666" overflow="visible">
+            <g transform="scale(0.8944271909999159) matrix(0.707 0.409 -0.707 0.409 0 0)">
+              <svg width="100" height="100" x="-50" y="-50" style="fill:#ffffff">
+                <svg data-name="Layer 1" 
+                  xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                  <path fill="#4b612c" d="M40.83 39.13H25.59v16.65h15.24l7.5 7h26.09V46.13H48.33l-7.5-7z"/>
+                  <path fill="#4b612c" d="M48.33 64.78l-7.5-7H25.59v24.07h48.83V64.78H48.33zM48.33 27.63l-7.5-7H25.59v16.5h15.24l7.5 7h26.09v-16.5H48.33z"/>
+                  <path fill="#759c3e" d="M40.83 36.65H25.59V53.3h15.24l7.5 7h26.09V43.65H48.33l-7.5-7z"/>
+                  <path fill="#759c3e" d="M48.33 62.3l-7.5-7H25.59v24.07h48.83V62.3H48.33z"/>
+                  <path fill="#fff" d="M59.206 70.647l2.58-2.581 5.19 5.19-2.58 2.581z"/>
+                  <path fill="#fff" d="M61.88 73.308l8.315-8.315 2.531 2.531-8.315 8.316zM59.208 52l2.581-2.582 5.19 5.19-2.58 2.581z"/>
+                  <path fill="#fff" d="M61.882 54.66l8.315-8.315 2.532 2.532-8.316 8.315z"/>
+                  <path fill="#759c3e" d="M48.33 25.15l-7.5-7H25.59v16.5h15.24l7.5 7h26.09v-16.5H48.33z"/>
+                  <path fill="#fff" d="M60.547 35.927l8.316-8.316 2.531 2.532-8.315 8.315z"/>
+                  <path fill="#fff" d="M60.54 30.136l2.532-2.532 8.315 8.316-2.531 2.531z"/>
+                </svg>
+              </svg>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="9e68a830-ef0c-4c72-b25b-93d3f0d47326" transform="translate(0 0)">
+          <svg x="64" y="37" overflow="visible">
+            <g transform="scale(2.1836601342771385) matrix(0.707 -0.409 0.707 0.409 0 0)">
+              <svg width="30" height="32" x="-15" y="-16" style="fill:#000000">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" width="30" height="32" viewBox="0 0 30 32">
+                  <path d="M27.125 13.857c1.464 0 2.589 1.071 2.589 2.536 0 1.143-.589 1.946-1.661 2.321l-3.071 1.054 1 2.982c.089.268.125.554.125.839 0 1.411-1.143 2.589-2.554 2.589a2.595 2.595 0 0 1-2.482-1.768l-.982-2.946-5.536 1.893.982 2.929c.089.268.143.554.143.839 0 1.393-1.143 2.589-2.571 2.589a2.572 2.572 0 0 1-2.464-1.768l-.982-2.911-2.732.946a3.04 3.04 0 0 1-.893.161c-1.446 0-2.536-1.071-2.536-2.518 0-1.107.714-2.107 1.768-2.464l2.786-.946-1.875-5.589-2.786.964a2.882 2.882 0 0 1-.857.143C1.107 15.732 0 14.643 0 13.214c0-1.107.714-2.107 1.768-2.464l2.804-.946-.946-2.839a2.682 2.682 0 0 1-.143-.839c0-1.411 1.143-2.589 2.571-2.589 1.125 0 2.107.696 2.464 1.768l.964 2.857 5.536-1.875-.964-2.857a2.682 2.682 0 0 1-.143-.839c0-1.411 1.161-2.589 2.571-2.589 1.125 0 2.125.714 2.482 1.768l.946 2.875 2.893-.982c.25-.071.5-.107.768-.107 1.393 0 2.589 1.036 2.589 2.464 0 1.107-.857 2.036-1.857 2.375l-2.804.964 1.875 5.643 2.929-1c.268-.089.554-.143.821-.143zm-14.179 4.679l5.536-1.875-1.875-5.625-5.536 1.911z"/>
+                </svg>
+              </svg>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="e11ada2b-ca2d-47cf-bec7-1a0346a01a84" transform="translate(0 0)">
+          <svg x="384" y="444" overflow="visible">
+            <g transform="scale(0.8944271909999159) matrix(0.707 0.409 -0.707 0.409 0 0)">
+              <svg width="100" height="100" x="-50" y="-50" style="fill:#ffffff">
+                <svg data-name="Layer 1" 
+                  xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                  <g fill="#4b612c">
+                    <circle cx="66.9" cy="30.64" r="13"/>
+                    <path d="M66.9 45.14a14.5 14.5 0 1 1 14.5-14.5 14.52 14.52 0 0 1-14.5 14.5zm0-26a11.5 11.5 0 1 0 11.5 11.5 11.51 11.51 0 0 0-11.5-11.5z"/>
+                  </g>
+                  <circle cx="66.9" cy="28.16" r="13" fill="#fff"/>
+                  <path d="M66.9 42.66a14.5 14.5 0 1 1 14.5-14.5 14.52 14.52 0 0 1-14.5 14.5zm0-26a11.5 11.5 0 1 0 11.5 11.5 11.51 11.51 0 0 0-11.5-11.5z" fill="#4f4f4f"/>
+                  <path fill="#4f4f4f" d="M60.88 27.66h7.01v3h-7.01z"/>
+                  <path fill="#4f4f4f" d="M66.4 19.1h3v11.56h-3z"/>
+                  <path fill="#4b612c" d="M27.7 50.04h10.71v26.44H27.7zM44.62 55.19h10.71v21.29H44.62zM74.2 80.67v5.66H25.75v-5.66zM61.54 46.86v29.62h10.71V46.86a11.2 11.2 0 0 1-10.71 0z"/>
+                  <path fill="#759c3e" d="M27.7 47.56h10.71V74H27.7zM44.62 52.71h10.71V74H44.62zM74.2 78.19v5.66H25.75v-5.66zM61.54 44.38V74h10.71V44.38a11.2 11.2 0 0 1-10.71 0z"/>
+                </svg>
+              </svg>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="b3a17d3e-b47f-48b4-b37d-8832cde8c72b" transform="translate(0 0)">
+          <svg x="320" y="185" overflow="visible">
+            <g transform="scale(0.8944271909999159) matrix(0.707 0.409 -0.707 0.409 0 0)">
+              <svg width="100" height="100" x="-50" y="-50" style="fill:#ffffff">
+                <svg data-name="Layer 1" 
+                  xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                  <path d="M85.23 58v3.19C85.23 67 78.85 73 71 73H29c-7.85 0-14.23-6-14.23-11.81V58z" fill="#9d5125"/>
+                  <path d="M41.89 26.9a18 18 0 0 1 16.42 10.56 9.14 9.14 0 0 1 14.29 7.18c7.1.59 12.63 7.44 12.63 12.88v1.18c0 5.85-6.38 11.78-14.26 11.78H29c-7.86 0-14.24-5.93-14.24-11.78v-1.17c0-4.51 3.79-10.71 9.12-12.25v-.51A17.94 17.94 0 0 1 41.89 26.9z" fill="#f58535"/>
+                  <path d="M31.84 47.81h2.79L37.43 61l3-13.16h2.79l-4.15 16.45h-3.35zM44.91 47.81h5.22c3.16 0 4.55 2 4.55 4.8s-1.73 4.87-4.82 4.87h-2.32v6.81h-2.63zm2.63 7.69h1.87c1.41 0 2.63-.76 2.63-2.84 0-1.78-.71-2.86-2.82-2.86h-1.68zM67 58.38v.35c0 3-1.2 5.89-5.08 5.89-4.16 0-5.45-2.68-5.45-8.56s1.29-8.56 5.47-8.56c4.68 0 5 3.46 5 5.17V53h-2.62v-.28c0-1.52-.46-3.28-2.35-3.21s-2.82 1.2-2.82 6.51.85 6.61 2.85 6.61c2.19 0 2.45-2.45 2.45-4v-.28z" fill="#fff"/>
+                </svg>
+              </svg>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="3b3ad3d7-bc8e-4863-a713-7dcf9852f986" transform="translate(0 0)">
+          <svg x="384" y="222" overflow="visible">
+            <g transform="scale(0.8944271909999159) matrix(0.707 0.409 -0.707 0.409 0 0)">
+              <svg width="100" height="100" x="-50" y="-50" style="fill:#ffffff">
+                <svg data-name="Layer 1" 
+                  xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                  <path d="M50 25.06L76.5 29v2.32c0 3.45-11.87 6.23-26.51 6.23s-26.5-2.78-26.5-6.23V28.8z" fill="#8c3123"/>
+                  <path d="M50 41.8c11.07 0 20.55-1.59 24.52-3.85l1.3-2.2.53-2v2.48l-8.67 37c0 2.3-7.91 4.15-17.67 4.15s-17.66-1.85-17.66-4.15l-8.67-37V33.8l2 4.23C29.66 40.25 39.05 41.8 50 41.8z" fill="#8c3123"/>
+                  <path d="M50 22.58c14.64 0 26.51 2.79 26.51 6.22S64.63 35 50 35s-26.5-2.75-26.5-6.2 11.86-6.22 26.5-6.22z" fill="#e05243"/>
+                  <path d="M50 39.32c13.65 0 24.88-2.41 26.34-5.53l-8.67 37c0 2.3-7.91 4.15-17.67 4.15S32.33 73.1 32.33 70.8l-8.67-37c1.47 3.11 12.7 5.52 26.34 5.52z" fill="#e05243"/>
+                </svg>
+              </svg>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="03d76c3f-3bcd-4c75-b6aa-4347692d3211" transform="translate(0 0)">
+          <svg x="-384" y="592" overflow="visible">
+            <g transform="scale(0.8944271909999159) matrix(0.707 0.409 -0.707 0.409 0 0)">
+              <svg width="100" height="100" x="-50" y="-50" style="fill:#ffffff">
+                <svg data-name="Layer 1" 
+                  xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                  <path fill="#4b612c" d="M40.83 39.13H25.59v16.65h15.24l7.5 7h26.09V46.13H48.33l-7.5-7z"/>
+                  <path fill="#4b612c" d="M48.33 64.78l-7.5-7H25.59v24.07h48.83V64.78H48.33zM48.33 27.63l-7.5-7H25.59v16.5h15.24l7.5 7h26.09v-16.5H48.33z"/>
+                  <path fill="#759c3e" d="M40.83 36.65H25.59V53.3h15.24l7.5 7h26.09V43.65H48.33l-7.5-7z"/>
+                  <path fill="#759c3e" d="M48.33 62.3l-7.5-7H25.59v24.07h48.83V62.3H48.33z"/>
+                  <path fill="#fff" d="M59.206 70.647l2.58-2.581 5.19 5.19-2.58 2.581z"/>
+                  <path fill="#fff" d="M61.88 73.308l8.315-8.315 2.531 2.531-8.315 8.316zM59.208 52l2.581-2.582 5.19 5.19-2.58 2.581z"/>
+                  <path fill="#fff" d="M61.882 54.66l8.315-8.315 2.532 2.532-8.316 8.315z"/>
+                  <path fill="#759c3e" d="M48.33 25.15l-7.5-7H25.59v16.5h15.24l7.5 7h26.09v-16.5H48.33z"/>
+                  <path fill="#fff" d="M60.547 35.927l8.316-8.316 2.531 2.532-8.315 8.315z"/>
+                  <path fill="#fff" d="M60.54 30.136l2.532-2.532 8.315 8.316-2.531 2.531z"/>
+                </svg>
+              </svg>
+            </g>
+          </svg>
+        </g>
+      </g>
+    </g>
+    <g pointer-events="">
+      <g opacity="1">
+        <g id="fc81291b-eb0b-4c6e-8769-d582eee53cee" transform="translate(0 0)">
+          <svg x="-64" y="204" overflow="visible" style="user-select:none">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#ffc107" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Notifier</tspan>
+              <tspan x="8" dy="1.1em"></tspan>
+            </text>
+            <text font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#ffc107" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Notifier</tspan>
+              <tspan x="8" dy="1.1em"></tspan>
+            </text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="eee798c0-ae4b-4336-baf4-2b02649200a2" transform="translate(0 0)">
+          <svg x="112" y="83" overflow="visible" style="user-select:none">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Slack API</tspan>
+              <tspan x="8" dy="1.1em"></tspan>
+            </text>
+            <text font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Slack API</tspan>
+              <tspan x="8" dy="1.1em"></tspan>
+            </text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="f97062a5-2e18-41eb-b1ce-b20e0a0fe02c" transform="translate(0 0)">
+          <svg x="-768" y="611" overflow="visible" style="user-select:none">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#4286c5" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Config</tspan>
+              <tspan x="8" dy="1.1em">Notifications</tspan>
+            </text>
+            <text font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#4286c5" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Config</tspan>
+              <tspan x="8" dy="1.1em">Notifications</tspan>
+            </text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="91086365-630b-4030-a3f0-0be68252bd3a" transform="translate(0 0)">
+          <svg x="-608" y="481" overflow="visible" style="user-select:none">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#8bc34a" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Custom</tspan>
+              <tspan x="8" dy="1.1em">Config Rules</tspan>
+            </text>
+            <text font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#8bc34a" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Custom</tspan>
+              <tspan x="8" dy="1.1em">Config Rules</tspan>
+            </text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="5e2e3f24-dc83-408d-894d-b4427af0f06f" transform="translate(0 0)">
+          <svg x="-464" y="786" overflow="visible" style="user-select:none">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#8bc34a" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">AWS Config</tspan>
+            </text>
+            <text font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#8bc34a" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">AWS Config</tspan>
+            </text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="9f887dab-a945-498f-b25c-78dc3cd7cee4" transform="translate(0 0)">
+          <svg x="304" y="564" overflow="visible" style="user-select:none">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#f5b720" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Remediation</tspan>
+              <tspan x="8" dy="1.1em">Coordinator</tspan>
+            </text>
+            <text font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#f5b720" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Remediation</tspan>
+              <tspan x="8" dy="1.1em">Coordinator</tspan>
+            </text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="388fff5f-6e1e-476b-a2ef-f9492f9d69c7" transform="translate(0 0)">
+          <svg x="-32" y="444" overflow="visible" style="user-select:none">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Remediation </tspan>
+              <tspan x="8" dy="1.1em">Queue</tspan>
+            </text>
+            <text font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Remediation </tspan>
+              <tspan x="8" dy="1.1em">Queue</tspan>
+            </text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="a278e0a6-5f30-427b-957b-9fd1bb9e0557" transform="translate(0 0)">
+          <svg x="-128" y="574" overflow="visible" style="user-select:none">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#f5b720" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Custom Config Rule</tspan>
+              <tspan x="8" dy="1.1em">Functions</tspan>
+              <tspan x="8" dy="1.1em"></tspan>
+            </text>
+            <text font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#f5b720" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Custom Config Rule</tspan>
+              <tspan x="8" dy="1.1em">Functions</tspan>
+              <tspan x="8" dy="1.1em"></tspan>
+            </text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="a139dbf1-980e-4ccb-ab8a-6c3c7bf71001" transform="translate(0 0)">
+          <svg x="48" y="342" overflow="visible" style="user-select:none">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#f5b720" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Remediation</tspan>
+              <tspan x="8" dy="1.1em">Functions</tspan>
+              <tspan x="8" dy="1.1em"></tspan>
+            </text>
+            <text font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#f5b720" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Remediation</tspan>
+              <tspan x="8" dy="1.1em">Functions</tspan>
+              <tspan x="8" dy="1.1em"></tspan>
+            </text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="6c5cba29-c02b-49f0-a380-dd4f500c110b" transform="translate(0 0)">
+          <svg x="432" y="490" overflow="visible" style="user-select:none">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#8bc34a" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Scheduled</tspan>
+              <tspan x="8" dy="1.1em">Event Rule</tspan>
+            </text>
+            <text font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#8bc34a" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Scheduled</tspan>
+              <tspan x="8" dy="1.1em">Event Rule</tspan>
+            </text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="85614278-e4f0-46f6-9f33-878933098019" transform="translate(0 0)">
+          <svg x="432" y="268" overflow="visible" style="user-select:none">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Remediation Actions</tspan>
+            </text>
+            <text font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Remediation Actions</tspan>
+            </text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="c3823fdf-4a3a-4ac2-9e65-429f9261c68c" transform="translate(0 0)">
+          <svg x="-144" y="749" overflow="visible" style="user-select:none">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#8bc34a" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Managed</tspan>
+              <tspan x="8" dy="1.1em">Config Rules</tspan>
+            </text>
+            <text font-family="Open Sans" y="30.799999999999997" font-size="20pt" fill="#8bc34a" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve">
+              <tspan x="8" dy="0">Managed</tspan>
+              <tspan x="8" dy="1.1em">Config Rules</tspan>
+            </text>
+          </svg>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

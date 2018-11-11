@@ -5,7 +5,7 @@
 
 article + *, .post-body ~ section {
   padding-top: $section-spacing;
-  border-top: 1px solid $border-color;
+  border-top: 10px solid $orange;
   margin-top: $section-spacing;
 
   > h2:first-child, > h3:first-child {

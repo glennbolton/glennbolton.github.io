@@ -9,7 +9,7 @@ tags:
   - azure
   - encryption
   - encryption at rest
-last_modified_at: 2018-03-18T16:58:00+10:00
+last_modified_at: 2018-04-21T18:59:00+10:00
 author: Glenn Bolton
 ---
 
@@ -43,7 +43,7 @@ In most jurisdictions, if you collect personal information about your customers 
 
 ## If I can't just _delete_ it, how do I _destroy_ it?
 
-In a traditional on-premise environment you might have destroyed your data when by using a secure disk wipe process and then verifying the physical destruction of the storage media. Cloud providers do the same thing, but you don’t have any control over this process or any real assurance that they destroyed your specific data adequately.
+In a traditional on-premise environment you might have destroyed your data by using a secure disk wipe process and then verifying the physical destruction of the storage media. Cloud providers do the same thing, but you don’t have any control over this process or any real assurance that they destroyed your specific data adequately.
 
 <span style="font-size: 150%">Encryption at rest helps you destroy your data.</span>  
 Let that sink in for a minute, and I'll explain.
